@@ -1,0 +1,139 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Lustria', serif;
+
+}
+
+.header {
+    z-index: 1;
+
+    .logo {
+        width: 150px;
+
+    }
+}
+
+.hero-section {
+    background-image: url("images/main.jpg");
+
+    /* Full height */
+    height: 100%;
+    min-height: 650px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-size: 96px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        line-height: 110px;
+
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .hero-section {
+        .overlay h1 {
+            font-size: 70px;
+            line-height: 90px;
+        }
+
+        .overlay p {
+            font-size: 20px;
+
+        }
+    }
+
+    .booking-text {
+        padding: 0 50px;
+
+        h1 {
+            font-size: 38px;
+            line-height: 44px;
+        }
+
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav1 {
+        background: rgba(0, 0, 0, .8);
+    }
+
+    .hero-section {
+        .overlay h1 {
+            font-size: 54px;
+            line-height: 62px;
+        }
+
+        .overlay p {
+            font-size: 20px;
+
+        }
+    }
+
+
+
+}
+
+@media only screen and (max-width: 575px) {
+    .nav1 {
+        background: rgba(0, 0, 0, .8);
+    }
+
+    .hero-section {
+        .overlay h1 {
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 5px;
+        }
+
+        .overlay p {
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+    }
+
+    .booking-text {
+        padding: 0;
+
+        h1 {
+            font-size: 34px;
+        }
+    }
+
+    .width-50px {
+        width: 50px;
+    }
+
+    .video-section {
+        min-height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+
+    .hero-section {
+        .overlay h1 {
+            font-size: 26px;
+
+        }
+
+    }
+}
